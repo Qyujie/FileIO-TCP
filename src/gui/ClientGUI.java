@@ -28,7 +28,7 @@ public class ClientGUI {
 	private static File file;
 
 	public static void main(String[] args) {
-		JFrame f = new JFrame("文件传输");
+		JFrame f = new JFrame("文件传输-TCP");
 		f.setSize(410, 350);
 		f.setLocation(200, 200);
 		f.getContentPane().setLayout(null);

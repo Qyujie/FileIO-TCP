@@ -105,7 +105,6 @@ public class Server implements Runnable{
 			getSize.start();
 			while ((len = bis.read(b)) != -1) {
 				bos.write(b, 0, len);
-				bos.flush();
 				lensize += len;
 				current = (double) lensize / (double) fileSize;
 	            progress = (int) (current * 100);
